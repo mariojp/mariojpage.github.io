@@ -6,28 +6,23 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 		<link href="site.css" rel="stylesheet" type="text/css"/>
 	</head>
-	<body>
-		<table>
-			<tr> 
-				<td collspan="3">BARRA DO SITE</td>
-			</tr>
-			<tr> 
-				<td>POST 1</td>
-				<td>POST 2</td>
-				<td>POST 3</td>
-
-			</tr>
-		</table>
-			
-		<h1 class="uppercase">Olá, Mundo!!! </h1>
-		<p class="font-arial uppercase"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="http://ucsal.br"  target="_blank">accusantium </a> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-		
-		<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem <a href="http://ucsal.br"  target="_blank">accusantium </a> doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-
-		<ul>
-			<li><a href="contato.html">Pagina de Contato</a></li>
-				
-			<li class="uppercase">Pagina de links uteis</li>
-		</ul>
+	<body class="text-center">
+		<main class="form-signin">
+		  <form>
+		    <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+		    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+		    <label for="inputEmail" class="visually-hidden">Email address</label>
+		    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		    <label for="inputPassword" class="visually-hidden">Password</label>
+		    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+		    <div class="checkbox mb-3">
+		      <label>
+			<input type="checkbox" value="remember-me"> Remember me
+		      </label>
+		    </div>
+		    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+		    <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+		  </form>
+		</main>
 	</body>
 </html>
