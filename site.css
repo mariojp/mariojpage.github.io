@@ -1,0 +1,11 @@
+h1, p, li{
+  color: blue;
+}
+
+.font-arial{
+  font-family: Arial;
+}
+			
+.uppercase {
+		text-transform: uppercase;
+}
