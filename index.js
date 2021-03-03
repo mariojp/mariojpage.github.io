@@ -7,13 +7,13 @@ function bomdia(){
 }
 
 
-function botaoEvento(this) {
+function botaoEvento(botao) {
 	var senha = document.querySelector("#inputPassword");
 
 	if(senha.value.length < 6){
 		alert('Senha precisa ser maior que 6');	
 	}
 	alert('Botão clicado');
-	this.submit();
+	botao.submit();
 
 }
